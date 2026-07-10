@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shree Travels — Cabs, Buses & Tour Packages in Kolhapur</title>
+  <meta name="description" content="Shree Travels, Kolhapur — local cabs & buses plus outstation tour packages to Tirupati, South India, Bangalore, Ooty, North India, Shimla and more. Request a callback today." />
+  <meta name="theme-color" content="#F97316" />
+  <link rel="icon" type="image/svg+xml" href="assets/img/favicon.svg" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600;700;800&family=Mukta:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ============ ICON SPRITE (hidden) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- service / feature line icons -->
+    <symbol id="i-cab" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 11l1.5-4A2 2 0 0 1 8.4 6h7.2a2 2 0 0 1 1.9 1.4L19 11"/><rect x="3" y="11" width="18" height="6" rx="1.5"/><circle cx="7.5" cy="17.5" r="1.5"/><circle cx="16.5" cy="17.5" r="1.5"/><path d="M9 6V4h6v2"/></symbol>
+    <symbol id="i-bus" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="14" rx="2"/><path d="M4 10h16M9 4v6"/><circle cx="8" cy="18.5" r="1.4"/><circle cx="16" cy="18.5" r="1.4"/></symbol>
+    <symbol id="i-road" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21 6 3M16 21l2-18M12 5v2M12 11v2M12 17v2"/></symbol>
+    <symbol id="i-temple" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 5H5l7-5zM6 8v10M18 8v10M4 18h16M10 18v-4h4v4"/></symbol>
+    <symbol id="i-group" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3"/><path d="M3 20a6 6 0 0 1 12 0"/><path d="M16 5.5a3 3 0 0 1 0 5M17 14.5a6 6 0 0 1 4 5.5"/></symbol>
+    <symbol id="i-transfer" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M2 16h13a3 3 0 0 0 3-3l3 1M2 16l2-5h9l4 3M2 16v2m4-2v2"/><path d="M12 3l3 3-3 3"/></symbol>
+    <symbol id="i-driver" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l7 3v5c0 5-3.5 8-7 10-3.5-2-7-5-7-10V6l7-3z"/><path d="M9 12l2 2 4-4"/></symbol>
+    <symbol id="i-rupee" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 5h10M7 9h10M15 5c0 4-3 4-8 4 4 0 8 1 8 6M7 19l6-5"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+    <symbol id="i-map" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 4 3 6v14l6-2 6 2 6-2V4l-6 2-6-2z"/><path d="M9 4v14M15 6v14"/></symbol>
+    <symbol id="i-leaf" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c0-8 6-14 14-14 0 8-6 14-14 14z"/><path d="M5 19C9 15 13 11 17 9"/></symbol>
+    <!-- ui / contact -->
+    <symbol id="i-phone" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 5c0 9 6 15 15 15l1-4-5-2-2 2a12 12 0 0 1-5-5l2-2-2-5-4 1z"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 21s7-6 7-11a7 7 0 0 0-14 0c0 5 7 11 7 11z"/><circle cx="12" cy="10" r="2.5"/></symbol>
+    <symbol id="i-star" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2l2.9 6 6.6.6-5 4.3 1.5 6.5L12 16.9 5.9 19.4 7.5 12.9l-5-4.3L9.1 8 12 2z"/></symbol>
+    <symbol id="i-arrow-up" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12l5 5 9-11"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M4 7h16M4 12h16M4 17h16"/></symbol>
+    <symbol id="i-close" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M6 6l12 12M18 6L6 18"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3.5 3 14.5 0 18M12 3c-3 3.5-3 14.5 0 18"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 6l6 6-6 6"/></symbol>
+    <!-- brand icons -->
+    <symbol id="i-whatsapp" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.1-1.3A10 10 0 1 0 12 2zm0 2a8 8 0 1 1-4.1 14.9l-.3-.2-3 .8.8-2.9-.2-.3A8 8 0 0 1 12 4zm-2.4 4c-.2 0-.5 0-.7.4-.3.4-1 1-1 2.3 0 1.4 1 2.7 1.1 2.9.2.2 2 3.1 4.9 4.2 2.4 1 2.9.8 3.4.7.5 0 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.3-.2-.6-.4-.3-.1-1.6-.8-1.9-.9-.3 0-.4-.1-.6.2-.2.3-.6.8-.8 1-.1.2-.3.2-.5.1-.3-.1-1.2-.5-2.2-1.4-.8-.7-1.4-1.6-1.5-1.9-.2-.3 0-.4.1-.5l.4-.5c.2-.2.2-.3.3-.5.1-.2 0-.4 0-.5s-.6-1.5-.8-2c-.2-.5-.4-.5-.6-.5h-.5z"/></symbol>
+    <symbol id="i-facebook" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9h3V6h-3c-2 0-3.5 1.5-3.5 3.5V11H8v3h2.5v7h3v-7H16l.5-3h-3V9.5c0-.3.2-.5.5-.5z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round"><rect x="4" y="4" width="16" height="16" rx="5"/><circle cx="12" cy="12" r="3.5"/><circle cx="17" cy="7" r="1" fill="currentColor" stroke="none"/></symbol>
+    <symbol id="i-twitter" viewBox="0 0 24 24" fill="currentColor"><path d="M4 4h4l4 5.5L16.5 4H20l-6 8 6.5 8H16l-4.5-6L6 20H2.5l6.5-8.5L4 4z"/></symbol>
+    <symbol id="i-youtube" viewBox="0 0 24 24" fill="currentColor"><path d="M22 8a3 3 0 0 0-2.1-2.1C18 5.4 12 5.4 12 5.4s-6 0-7.9.5A3 3 0 0 0 2 8a31 31 0 0 0 0 8 3 3 0 0 0 2.1 2.1c1.9.5 7.9.5 7.9.5s6 0 7.9-.5A3 3 0 0 0 22 16a31 31 0 0 0 0-8zM10 15V9l5 3-5 3z"/></symbol>
+  </defs>
+</svg>
+
+<!-- ============ TOP BAR ============ -->
+<div class="topbar">
+  <div class="container topbar__inner">
+    <p class="topbar__offer" data-i18n="topbar_offer">Now booking Tirupati, Ooty, Shimla & more — call us today!</p>
+    <div class="topbar__right">
+      <a class="topbar__contact" id="topPhone" href="#"><svg class="ic"><use href="#i-phone"/></svg><span></span></a>
+      <a class="topbar__contact" id="topMail" href="#"><svg class="ic"><use href="#i-mail"/></svg><span></span></a>
+      <div class="topbar__social">
+        <a id="soc-fb-top" aria-label="Facebook" href="#"><svg class="ic"><use href="#i-facebook"/></svg></a>
+        <a id="soc-ig-top" aria-label="Instagram" href="#"><svg class="ic"><use href="#i-instagram"/></svg></a>
+        <a id="soc-tw-top" aria-label="Twitter" href="#"><svg class="ic"><use href="#i-twitter"/></svg></a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- ============ NAV ============ -->
+<header class="nav" id="nav">
+  <div class="container nav__inner">
+    <a class="brand" href="#home">
+      <img src="assets/img/logo.svg" alt="Shree Travels" class="brand__logo" />
+    </a>
+
+    <nav class="nav__links" id="navLinks" aria-label="Primary">
+      <a href="#home" data-i18n="nav_home">Home</a>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#fleet" data-i18n="nav_fleet">Fleet</a>
+      <a href="#destinations" data-i18n="nav_destinations">Destinations</a>
+      <a href="#packages" data-i18n="nav_packages">Packages</a>
+      <a href="#reviews" data-i18n="nav_reviews">Reviews</a>
+      <a href="#contact" data-i18n="nav_contact">Contact</a>
+    </nav>
+
+    <div class="nav__actions">
+      <button class="langtoggle" id="langToggle" data-i18n-aria="lang_aria" aria-label="Switch language">
+        <svg class="ic"><use href="#i-globe"/></svg>
+        <span data-i18n="lang_name">मराठी</span>
+      </button>
+      <a href="#contact" class="btn btn--primary btn--sm nav__cta" data-i18n="btn_book">Book Now</a>
+      <button class="hamburger" id="hamburger" data-i18n-aria="menu_aria" aria-label="Toggle menu" aria-expanded="false">
+        <svg class="ic"><use href="#i-menu"/></svg>
+      </button>
+    </div>
+  </div>
+</header>
+
+<main>
+<!-- ============ HERO ============ -->
+<section class="hero" id="home">
+  <div class="hero__bg"></div>
+  <div class="hero__overlay"></div>
+  <div class="container hero__inner">
+    <div class="hero__content">
+      <span class="badge" data-i18n="hero_badge">Kolhapur's Trusted Travel Partner</span>
+      <h1 class="hero__title" data-i18n="hero_title">Explore India with Comfort &amp; Care</h1>
+      <p class="hero__sub" data-i18n="hero_sub">From local Kolhapur sightseeing to Tirupati, Ooty, Shimla and beyond.</p>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary" data-i18n="hero_cta1">Request a Callback</a>
+        <a href="#packages" class="btn btn--ghost" data-i18n="hero_cta2">View Packages</a>
+      </div>
+      <ul class="hero__points">
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="hero_point1">24×7 Support</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="hero_point2">Experienced Drivers</span></li>
+        <li><svg class="ic"><use href="#i-check"/></svg><span data-i18n="hero_point3">Sanitised Vehicles</span></li>
+      </ul>
+    </div>
+
+    <!-- quick callback card -->
+    <div class="quickcard">
+      <h3 data-i18n="quick_title">Get a Free Callback</h3>
+      <p data-i18n="quick_sub">Share your details — we'll call you back.</p>
+      <form id="quickForm" novalidate>
+        <div class="field">
+          <label data-i18n="form_name">Your Name</label>
+          <input type="text" name="name" autocomplete="name" required />
+        </div>
+        <div class="field">
+          <label data-i18n="form_phone">Phone Number</label>
+          <input type="tel" name="phone" inputmode="numeric" autocomplete="tel" required />
+        </div>
+        <div class="field">
+          <label data-i18n="form_destination">Destination / Service</label>
+          <select name="destination" class="js-dest"></select>
+        </div>
+        <button type="submit" class="btn btn--primary btn--block" data-i18n="form_submit">Request Callback</button>
+        <p class="form-msg" data-role="msg" role="status" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+  <a href="#services" class="hero__scroll"><span data-i18n="hero_scroll">Scroll to explore</span><svg class="ic"><use href="#i-chevron"/></svg></a>
+</section>
+
+<!-- ============ STATS ============ -->
+<section class="stats">
+  <div class="container stats__grid">
+    <div class="stat"><div class="stat__num" data-count="16" data-suffix="+">0</div><div class="stat__label" data-i18n="stat1_label">Years of Service</div></div>
+    <div class="stat"><div class="stat__num" data-count="50" data-suffix="K+">0</div><div class="stat__label" data-i18n="stat2_label">Happy Travellers</div></div>
+    <div class="stat"><div class="stat__num" data-count="120" data-suffix="+">0</div><div class="stat__label" data-i18n="stat3_label">Destinations Covered</div></div>
+    <div class="stat"><div class="stat__num" data-count="40" data-suffix="+">0</div><div class="stat__label" data-i18n="stat4_label">Vehicles in Fleet</div></div>
+  </div>
+</section>
+
+<!-- ============ SERVICES ============ -->
+<section class="section" id="services">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="kicker" data-i18n="services_kicker">What We Offer</span>
+      <h2 data-i18n="services_title">Our Travel Services</h2>
+      <p data-i18n="services_sub">Complete travel solutions for tourists, families, pilgrims and groups.</p>
+    </div>
+    <div class="grid grid--3" id="servicesGrid"></div>
+  </div>
+</section>
+
+<!-- ============ FLEET ============ -->
+<section class="section section--tint" id="fleet">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="kicker" data-i18n="fleet_kicker">Our Fleet</span>
+      <h2 data-i18n="fleet_title">Buses &amp; Cars for Every Trip</h2>
+      <p data-i18n="fleet_sub">Well-maintained, sanitised vehicles with trained, courteous drivers.</p>
+    </div>
+    <div class="tabs reveal" role="tablist">
+      <button class="tab is-active" data-tab="buses" role="tab" data-i18n="tab_buses">Buses</button>
+      <button class="tab" data-tab="cars" role="tab" data-i18n="tab_cars">Cars &amp; Vans</button>
+    </div>
+    <div class="grid grid--4" id="fleetGrid"></div>
+  </div>
+</section>
+
+<!-- ============ DESTINATIONS / GALLERY ============ -->
+<section class="section" id="destinations">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="kicker" data-i18n="gallery_kicker">Where We Travel</span>
+      <h2 data-i18n="gallery_title">Popular Destinations</h2>
+      <p data-i18n="gallery_sub">Photos and videos from our trips across India. Tap any card to view.</p>
+    </div>
+    <div class="filters reveal">
+      <button class="chip is-active" data-filter="all" data-i18n="filter_all">All</button>
+      <button class="chip" data-filter="photo" data-i18n="filter_photos">Photos</button>
+      <button class="chip" data-filter="video" data-i18n="filter_videos">Videos</button>
+    </div>
+    <div class="gallery" id="galleryGrid"></div>
+  </div>
+</section>
+
+<!-- ============ PACKAGES ============ -->
+<section class="section section--tint" id="packages">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="kicker" data-i18n="pkg_kicker">Tour Packages</span>
+      <h2 data-i18n="pkg_title">Popular Tour Packages</h2>
+      <p data-i18n="pkg_sub">Ready-made itineraries — or tell us yours and we'll customise it.</p>
+    </div>
+    <div class="grid grid--3" id="packagesGrid"></div>
+    <p class="note" data-i18n="pkg_note">*Indicative fare per person; varies with season, route and group size.</p>
+  </div>
+</section>
+
+<!-- ============ WHY US ============ -->
+<section class="section" id="why">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="kicker" data-i18n="why_kicker">Why Shree Travels</span>
+      <h2 data-i18n="why_title">Travel With Complete Peace of Mind</h2>
+      <p data-i18n="why_sub">Sixteen years of happy journeys across India.</p>
+    </div>
+    <div class="grid grid--3" id="whyGrid"></div>
+  </div>
+</section>
+
+<!-- ============ REVIEWS ============ -->
+<section class="section section--tint" id="reviews">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="kicker" data-i18n="rev_kicker">Testimonials</span>
+      <h2 data-i18n="rev_title">What Our Travellers Say</h2>
+      <p data-i18n="rev_sub">Real experiences from families and groups we've travelled with.</p>
+    </div>
+    <div class="grid grid--3" id="reviewsGrid"></div>
+  </div>
+</section>
+
+<!-- ============ CONTACT + CALLBACK ============ -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="section__head reveal">
+      <span class="kicker" data-i18n="contact_kicker">Get in Touch</span>
+      <h2 data-i18n="contact_title">Contact &amp; Callback</h2>
+      <p data-i18n="contact_sub">Have a question or ready to book? Call us or request a callback.</p>
+    </div>
+
+    <div class="contact__grid">
+      <div class="contact__info reveal">
+        <div class="infocard">
+          <span class="infocard__ic"><svg class="ic"><use href="#i-pin"/></svg></span>
+          <div><h4 data-i18n="info_address_label">Visit Us</h4><p data-i18n="info_address" id="infoAddress"></p></div>
+        </div>
+        <div class="infocard">
+          <span class="infocard__ic"><svg class="ic"><use href="#i-phone"/></svg></span>
+          <div><h4 data-i18n="info_phone_label">Call / WhatsApp</h4><p><a id="infoPhone" href="#"></a></p></div>
+        </div>
+        <div class="infocard">
+          <span class="infocard__ic"><svg class="ic"><use href="#i-mail"/></svg></span>
+          <div><h4 data-i18n="info_email_label">Email</h4><p><a id="infoEmail" href="#"></a></p></div>
+        </div>
+        <div class="infocard">
+          <span class="infocard__ic"><svg class="ic"><use href="#i-clock"/></svg></span>
+          <div><h4 data-i18n="info_hours_label">Office Hours</h4><p data-i18n="info_hours"></p></div>
+        </div>
+        <div class="contact__social">
+          <a id="soc-fb" aria-label="Facebook" href="#"><svg class="ic"><use href="#i-facebook"/></svg></a>
+          <a id="soc-ig" aria-label="Instagram" href="#"><svg class="ic"><use href="#i-instagram"/></svg></a>
+          <a id="soc-tw" aria-label="Twitter" href="#"><svg class="ic"><use href="#i-twitter"/></svg></a>
+          <a id="soc-yt" aria-label="YouTube" href="#"><svg class="ic"><use href="#i-youtube"/></svg></a>
+          <a id="soc-wa" aria-label="WhatsApp" href="#"><svg class="ic"><use href="#i-whatsapp"/></svg></a>
+        </div>
+      </div>
+
+      <div class="contact__form reveal">
+        <form id="callbackForm" class="callback" novalidate>
+          <h3 data-i18n="form_title">Request a Callback</h3>
+          <div class="grid2">
+            <div class="field">
+              <label data-i18n="form_name">Your Name</label>
+              <input type="text" name="name" autocomplete="name" required />
+            </div>
+            <div class="field">
+              <label data-i18n="form_phone">Phone Number</label>
+              <input type="tel" name="phone" inputmode="numeric" autocomplete="tel" required />
+            </div>
+            <div class="field">
+              <label data-i18n="form_email">Email (optional)</label>
+              <input type="email" name="email" autocomplete="email" />
+            </div>
+            <div class="field">
+              <label data-i18n="form_destination">Destination / Service</label>
+              <select name="destination" class="js-dest"></select>
+            </div>
+            <div class="field">
+              <label data-i18n="form_date">Preferred Travel Date</label>
+              <input type="date" name="date" />
+            </div>
+            <div class="field">
+              <label data-i18n="form_people">No. of Travellers</label>
+              <input type="number" name="people" min="1" max="60" value="2" />
+            </div>
+          </div>
+          <div class="field">
+            <label data-i18n="form_message">Message (optional)</label>
+            <textarea name="message" rows="3"></textarea>
+          </div>
+          <div class="callback__actions">
+            <button type="submit" class="btn btn--primary" data-i18n="form_submit">Request Callback</button>
+            <span class="callback__or" data-i18n="form_or">or</span>
+            <a id="waFormBtn" class="btn btn--wa" href="#" target="_blank" rel="noopener">
+              <svg class="ic"><use href="#i-whatsapp"/></svg><span data-i18n="form_whatsapp">Chat on WhatsApp</span>
+            </a>
+          </div>
+          <p class="form-msg" data-role="msg" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </div>
+
+    <div class="map reveal">
+      <h4 data-i18n="map_title">Find Us in Kolhapur</h4>
+      <div class="map__frame">
+        <iframe id="mapFrame" title="Shree Travels location — Kolhapur" loading="lazy" referrerpolicy="no-referrer-when-downgrade" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer">
+  <div class="container footer__grid">
+    <div class="footer__col">
+      <img src="assets/img/logo.svg" alt="Shree Travels" class="footer__logo" />
+      <p data-i18n="footer_about"></p>
+      <div class="footer__social">
+        <a id="soc-fb-f" aria-label="Facebook" href="#"><svg class="ic"><use href="#i-facebook"/></svg></a>
+        <a id="soc-ig-f" aria-label="Instagram" href="#"><svg class="ic"><use href="#i-instagram"/></svg></a>
+        <a id="soc-tw-f" aria-label="Twitter" href="#"><svg class="ic"><use href="#i-twitter"/></svg></a>
+        <a id="soc-yt-f" aria-label="YouTube" href="#"><svg class="ic"><use href="#i-youtube"/></svg></a>
+        <a id="soc-wa-f" aria-label="WhatsApp" href="#"><svg class="ic"><use href="#i-whatsapp"/></svg></a>
+      </div>
+    </div>
+    <div class="footer__col">
+      <h4 data-i18n="footer_links">Quick Links</h4>
+      <a href="#services" data-i18n="nav_services">Services</a>
+      <a href="#fleet" data-i18n="nav_fleet">Fleet</a>
+      <a href="#destinations" data-i18n="nav_destinations">Destinations</a>
+      <a href="#packages" data-i18n="nav_packages">Packages</a>
+      <a href="#reviews" data-i18n="nav_reviews">Reviews</a>
+    </div>
+    <div class="footer__col">
+      <h4 data-i18n="footer_contact">Contact</h4>
+      <p data-i18n="info_address"></p>
+      <p><a id="footPhone" href="#"></a></p>
+      <p><a id="footMail" href="#"></a></p>
+    </div>
+    <div class="footer__col">
+      <h4 data-i18n="footer_news_title">Travel Offers</h4>
+      <p data-i18n="footer_news_sub">Get seasonal deals in your inbox.</p>
+      <form id="newsForm" class="news" novalidate>
+        <input type="email" data-i18n-ph="footer_news_ph" placeholder="Your email address" required />
+        <button type="submit" class="btn btn--primary btn--sm" data-i18n="footer_subscribe">Subscribe</button>
+      </form>
+      <p class="form-msg" data-role="msg" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+  <div class="footer__bottom container">
+    <p data-i18n="footer_rights">© 2026 Shree Travels. All rights reserved.</p>
+    <p class="footer__note" data-i18n="footer_disclaimer"></p>
+  </div>
+</footer>
+
+<!-- floating buttons -->
+<a class="fab fab--wa" id="waFab" href="#" target="_blank" rel="noopener" data-i18n-aria="wa_tooltip" aria-label="Chat with us">
+  <svg class="ic"><use href="#i-whatsapp"/></svg>
+  <span class="fab__tip" data-i18n="wa_tooltip">Chat with us</span>
+</a>
+<button class="fab fab--top" id="toTop" data-i18n-aria="top_aria" aria-label="Back to top"><svg class="ic"><use href="#i-arrow-up"/></svg></button>
+
+<!-- lightbox -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <button class="lightbox__close" id="lbClose" aria-label="Close"><svg class="ic"><use href="#i-close"/></svg></button>
+  <button class="lightbox__nav lightbox__prev" id="lbPrev" aria-label="Previous"><svg class="ic" style="transform:rotate(180deg)"><use href="#i-chevron"/></svg></button>
+  <figure class="lightbox__fig">
+    <img id="lbImg" src="" alt="" />
+    <figcaption id="lbCap"></figcaption>
+  </figure>
+  <button class="lightbox__nav lightbox__next" id="lbNext" aria-label="Next"><svg class="ic"><use href="#i-chevron"/></svg></button>
+</div>
+
+<script src="js/translations.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
